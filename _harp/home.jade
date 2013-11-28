@@ -1,0 +1,8 @@
+ul.items
+ li.item(ng-repeat='item in items')
+  img.cover(ng-src="{{'prod_img/' + item.key + '.png'}}")
+  a.item-name(ng-bind='item.name', ng-href='{{"#/product/" + item.key}}')
+  a.item-name.mobi(ng-bind='item.name', ng-href='{{"https://o.rbn.co/" + item.key}}')
+   img(src='load.gif')
+  p.item-cost(ng-bind='"$" + item.cost')
+   img(src='load.gif')

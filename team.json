@@ -1,0 +1,26 @@
+{
+	"a": {
+		"name": "Brenden Davis",
+		"position": "Chief Operating Officer",
+		"email": "brendendavis96@gmail.com",
+		"img": "team_img/brenden.jpg"
+	},
+	"b": {
+		"name": "Krish Dholakiya",
+		"position": "Chief Tech/Finance Officer",
+		"email": "dholakiyaks@s.dcsdk12.org",
+		"img": "team_img/krish.jpg"
+	},
+	"c": {
+		"name": "Rachel Deltoro",
+		"position": "Chief Marketing Officer",
+		"email": "deltororm1@s.dcsdk12.org",
+		"img": "http://placehold.it/100x100/"
+	},
+	"d": {
+		"name": "Rebecca Mowery",
+		"position": "Chief HR Officer",
+		"email": "moweryrk@s.dcsdk12.org",
+		"img": "http://placehold.it/100x100"
+	}
+}

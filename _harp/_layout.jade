@@ -1,0 +1,27 @@
+// By Krish Dholakiya - http://krrishd.github.io
+doctype 5
+html
+ head
+  title The Ridge - Online TRHS School Store
+  link(rel='stylesheet', type='text/css', href='main.css')
+  // I know, scripts in the footer, etc, etc. I do this so that the uninterpreted content (by AngularJS) doesn't flash, so if you have a problem, fork this shiiiiizzzz
+  script(src='bower_components/jquery/jquery.min.js')
+  script(src='bower_components/angular/angular.min.js')
+  script(src='bower_components/angular-route/angular-route.min.js')
+  script(type="text/javascript" src="https://o.ribbon.co/ribbon-modal.js")
+  script(src='ctrl.js')
+ body(ng-app='store')
+  header
+   img.logo(src='TheRidge.png', alt='The Ridge')
+   //h1 The Ridge
+   nav
+    a(href='#/') Home
+    a(href='#/about') About
+    a(href='#/contact-us') Contact
+  .content
+   != yield
+  footer
+   p &copy; 2013 The Ridge. Made by 
+    a(href='http://krrishd.github.io/?ref=the_ridge') Krish Dholakiya 
+    | w/AngularJS and 
+    a(href='http://harpjs.com/') HarpJS.

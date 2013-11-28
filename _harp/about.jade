@@ -1,0 +1,7 @@
+.about
+ h2 This is the official website to purchase merchandise from ThunderRidge's very own school-based enterprise, The Ridge.
+ ul.managers
+  h3 Our Managers:
+  li.manager(ng-repeat='brown in browns')
+   img.prof(ng-src='{{brown.img}}')
+   a.name(ng-href='{{"mailto:" + brown.email}}', title='{{"Email " + brown.name + " - " + brown.email}}') {{brown.name + " - " + brown.position}}

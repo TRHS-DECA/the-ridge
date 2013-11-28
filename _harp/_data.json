@@ -1,0 +1,14 @@
+{
+	"home": {
+		"layout":false
+	},
+	"product": {
+		"layout": false
+	},
+	"about": {
+		"layout": false
+	},
+	"contact": {
+		"layout": false
+	}
+}
