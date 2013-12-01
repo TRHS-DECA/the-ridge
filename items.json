@@ -2,14 +2,12 @@
 	"green-grizzly-sweatshirt": {
 		"name": "Grizzly Sweatshirt - Green",
 		"key": "green-grizzly-sweatshirt",
-		"cost": 30.00,
-		"pricing": "discount"
+		"cost": 30.00
 	},
 	"white-grizzly-sweatshirt": {
 		"name": "Grizzly Sweatshirt - White",
 		"key": "white-grizzly-sweatshirt",
-		"cost": 30.00,
-		"pricing": "discount"
+		"cost": 30.00
 	},
 	"do-it-shirt-pink": {
 		"name": "Do It Shirt - Pink",
