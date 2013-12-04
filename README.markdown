@@ -31,7 +31,9 @@ Due to constraints in terms of server availability, this is currently hosted on 
 Thank you for your purchase! To receive your product, visit the school store with a printout of this receipt or have a screenshot of it on your phone, and a manager will give you the product. Thanks!
 ```
 and assign it a URL that is unique using the following naming convention: ```color-design-item_type```
+
 4. Open the [items.json](_harp/items.json) file and add the product information at the top of the JS Object with structure similar to the products already filled out.
+
 5. Go to the Command Line/Terminal, open up the repository folder locally, and execute the compilation script by doing:
 
 ```bash
