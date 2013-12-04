@@ -36,7 +36,7 @@ and assign it a URL that is unique using the following naming convention: ```col
 * Go to the Command Line/Terminal, open up the repository folder locally, and execute the compilation script by doing:
 
 ```bash
-$ ./_harp/update.sh "Talk about addition/modification here"
+$ ./_harp/update.sh "@Username - Modification"
 ```
 
 * If all is done correctly, you should be good!
