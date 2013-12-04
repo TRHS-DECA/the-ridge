@@ -23,28 +23,27 @@ Due to constraints in terms of server availability, this is currently hosted on 
 
 **To add a product**:
 
-1. Go to http://o.ribbon.co
-2. Login with the credentials (Restricted to the officer team)
-3. Add a product with an image and description. Add the following receipt message:
+* Go to http://o.ribbon.co
+* Login with the credentials (Restricted to the officer team)
+* Add a product with an image and description. Add the following receipt message:
 
-```
-Thank you for your purchase! To receive your product, visit the school store with a printout of this receipt or have a screenshot of it on your phone, and a manager will give you the product. Thanks!
-```
+> Thank you for your purchase! To receive your product, visit the school store with a printout of this receipt or have a screenshot of it on your phone, and a manager will give you the product. Thanks!
+
 and assign it a URL that is unique using the following naming convention: ```color-design-item_type```
 
-4. Open the [items.json](_harp/items.json) file and add the product information at the top of the JS Object with structure similar to the products already filled out.
+* Open the [items.json](_harp/items.json) file and add the product information at the top of the JS Object with structure similar to the products already filled out.
 
-5. Go to the Command Line/Terminal, open up the repository folder locally, and execute the compilation script by doing:
+* Go to the Command Line/Terminal, open up the repository folder locally, and execute the compilation script by doing:
 
 ```bash
 $ ./_harp/update.sh "Talk about addition/modification here"
 ```
 
-6. If all is done correctly, you should be good!
+* If all is done correctly, you should be good!
 
 ## License
 
-All the codein this repository is licensed under the open-source MIT License that can be found [here](LICENSE).
+All the code in this repository is licensed under the open-source MIT License that can be found [here](LICENSE).
 
 ## Questions, Comments, Concerns
 
@@ -53,7 +52,9 @@ If anyone has any questions about anything regarding this eCommerce platform or 
 He can be reached primarily via:
 
 email: dholakiyaks@s.dcsdk12.org
+
 issue report: [file issue here](https://github.com/TRHS-DECA/the-ridge/issues)
+
 @ school: 5th Period Marketing, 4th Period Intro to Business, *or* B Lunch
 
 ---
